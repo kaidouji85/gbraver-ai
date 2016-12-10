@@ -1,6 +1,7 @@
 let game = new Phaser.Game(320, 568, Phaser.AUTO, '', {
   preload: function() {
     // ゲームコンテンツを画面中央、サイズ最大で表示するための設定
+    this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
     this.scale.pageAlignHorizontally = true;
     this.scale.pageAlignVertically = true;
     this.scale.refresh();
