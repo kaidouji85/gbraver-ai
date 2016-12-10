@@ -9,14 +9,15 @@
 ```
 npm -g webpack
 npm install
-webpack
 npm start
 ```
 
 上記コマンド実行後に、ブラウザから`http://localhost:3000`にアクセスする。
+
 ### 各種コマンド
 
-|コマンド                      | 説明                                   |
-| npm start                   | 本ゲームを起動する                       |
-| webpack                     | フロントエンドのソースコードをビルドする    |
-| webpack --watch             | フロントエンドのソースコードをウォッチする  |
+|コマンド                     |説明                                   |
+|npm install                 |関連パッケージをインストールする           |
+|npm start                   |本ゲームを起動する                       |
+|npm run build               |フロントエンドのソースコードをビルドする    |
+|npm run watch               |フロントエンドのソースコードをウォッチする  |
