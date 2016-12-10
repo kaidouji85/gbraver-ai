@@ -1,2 +1,4 @@
 .idea/
 node_modules/
+server-side/public/javascripts/bundle.js
+server-side/public/javascripts/bundle.js.map

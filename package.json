@@ -1,9 +1,10 @@
 {
   "name": "gbraver-ai",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.0.1",
+  "private": false,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "buid": "webpack --config webpack.config.js"
   },
   "dependencies": {
     "body-parser": "~1.15.2",
@@ -13,5 +14,8 @@
     "jade": "~1.11.0",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.14.0"
   }
 }
